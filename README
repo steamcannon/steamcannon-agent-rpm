@@ -1,0 +1,6 @@
+This is a repo to hold Steamcannon-Agent RPM artifacts when building SteamCannon-Agent appliances
+with rumpler and boxgrinder.
+
+It goes kind of like this:
+
+    ../rumpler/bin/rumpler -g steamcannon-agent -v #{steamcannon_agent_version} -o ../steamcannon-agent-rpm/specs -r ../torquebox-rpm/gemfiles/root.yml

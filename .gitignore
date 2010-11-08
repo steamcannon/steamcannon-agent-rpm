@@ -1,0 +1,5 @@
+sources-cache
+log
+*.log
+*.swp
+
